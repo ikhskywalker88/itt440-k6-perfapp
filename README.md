@@ -247,11 +247,11 @@ This journey touches both a lighter page (index.php) and a heavier page (booking
 
 
 
-&nbsp;	•	Machine: Local desktop / laptop
+&nbsp;	•	Machine: Local desktop
 
-&nbsp;	•	CPU: 4-core Intel (e.g. i5)
+&nbsp;	•	CPU: 12th Gen Intel Core i5-12600
 
-&nbsp;	•	RAM: 16 GB
+&nbsp;	•	RAM: 32 GB
 
 &nbsp;	•	OS: Windows 11
 
@@ -310,60 +310,15 @@ I designed three scenarios:
 index.php → search.php → booking.php → sleep(1)
 
 
+### 6.2 Scenario Summary
 
-#### 6.2 Scenario Summary
-
-
-
-&nbsp;	Test ID
-
-&nbsp;	Type
-
-&nbsp;	Scenario Name
-
-&nbsp;	Max VUs
-
-&nbsp;	Duration (approx.)
-
-&nbsp;	Purpose
-
-&nbsp;	T1
-
-&nbsp;	Load
-
-&nbsp;	Normal Load
-
-&nbsp;	5
-
-&nbsp;	~5 minutes
-
-&nbsp;	Small load baseline
-
-&nbsp;	T2
-
-&nbsp;	Stress
-
-&nbsp;	High Load
-
-&nbsp;	100
-
-&nbsp;	~7 minutes
-
-&nbsp;	Push system beyond capacity
-
-&nbsp;	T3
-
-&nbsp;	Spike
-
-&nbsp;	Traffic Spike
-
-&nbsp;	100
-
-&nbsp;	~3 minutes
+| Test ID | Type   | Scenario Name  | Max VUs | Duration (approx.) | Purpose                                  |
+|--------:|--------|----------------|--------:|---------------------|------------------------------------------|
+| T1      | Load   | Normal Load    | 5       | ~5 minutes          | Small load baseline                      |
+| T2      | Stress | High Load      | 100     | ~7 minutes          | Push system beyond capacity              |
+| T3      | Spike  | Traffic Spike  | 100     | ~3 minutes          | Sudden short burst and observe behaviour |
 
 
-
-Sudden short burst and observe behaviour
 
 
 
@@ -839,7 +794,7 @@ This project covered:
 
 
 
-Key takeaways:
+What i have learned:
 
 &nbsp;	•	Even simple setups can fail under surprisingly low concurrency.
 
