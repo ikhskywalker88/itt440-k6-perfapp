@@ -1,11 +1,11 @@
 **Web Application Performance Testing with k6** (PerfApp – nginx + PHP)
 
-**Course**: ITT440 – Individual Assignment
-**Studen**t: Muhammad Ikhwan bin Mohammad Faisal
-**Matric No.**: 2023516519
-**Tool**: k6
-**Target Application**: PerfApp (simple flight booking demo on nginx + PHP)
-**Video Walkthrough**: \[Your YouTube link]
+Course: ITT440 – Individual Assignment  
+Student: Muhammad Ikhwan bin Mohammad Faisal  
+Matric No.: 2023516519  
+Tool: k6  
+Target Application: PerfApp (simple flight booking demo on nginx + PHP)  
+Video Walkthrough: [Your YouTube link]
 
 
 
@@ -866,7 +866,7 @@ tests/         → k6 scripts (load-5vus.js, stress-test.js, spike-test.js)
 
 
 
-test-results/  → k6 JSON output for load test (load-5vus-results.json)
+test-results/  → k6 JSON output for load test (test-results.json)
 
 
 
