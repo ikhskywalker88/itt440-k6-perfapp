@@ -1,4 +1,4 @@
-**Web Application Performance Testing with k6** (PerfApp – nginx + PHP)
+**Web Application Performance Testing with k6** 
 
 Course: ITT440 – Individual Assignment  
 Student: Muhammad Ikhwan bin Mohammad Faisal  
