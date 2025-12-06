@@ -55,9 +55,7 @@ PerfApp is hosted locally on my machine using nginx and PHP. k6 is used to simul
 
 
 
-&nbsp;	4.	Observe CPU and memory usage using Task Manager.
-
-&nbsp;	5.	Identify performance bottlenecks and propose realistic improvements.
+&nbsp;	4.	Identify performance bottlenecks and propose realistic improvements.
 
 
 
