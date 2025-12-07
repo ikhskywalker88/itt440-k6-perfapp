@@ -5,7 +5,7 @@ Student: Muhammad Ikhwan bin Mohammad Faisal
 Matric No.: 2023516519  
 Tool: k6  
 Target Application: PerfApp (simple flight booking demo on nginx + PHP)  
-Video Walkthrough: [Your YouTube link]
+Video Walkthrough: [https://youtu.be/evLQY2UMB-8?si=LBT1dXR35CzTxPmv]
 
 
 
